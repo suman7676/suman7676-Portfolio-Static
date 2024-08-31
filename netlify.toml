@@ -1,0 +1,18 @@
+# Basic build settings
+[build]
+  base = "/" # Base directory of your project
+  publish = "build" # Directory to publish
+  command = "npm run build" # Build command
+
+# Redirects for Single Page Applications (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.deploy-preview.environment]
+  NODE_ENV = "development"
