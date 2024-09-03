@@ -16,3 +16,6 @@
 
 [context.deploy-preview.environment]
   NODE_ENV = "development"
+
+[build.environment]
+  PHP_VERSION = "8.1.0"
