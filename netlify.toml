@@ -7,7 +7,7 @@
 # Redirects for Single Page Applications (SPA)
 [[redirects]]
   from = "/*"
-  to = "/app.blade.php"
+  to = "/index.html"
   status = 200
 
 # Environment variables
